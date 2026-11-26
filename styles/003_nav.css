@@ -1,0 +1,56 @@
+nav {
+    max-width: var(--s-1024);
+
+    padding-block: 35px;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .logo {
+        display: flex;
+        flex-direction: row;
+
+        gap: 15px;
+
+        & img {
+            height: var(--s-80);
+        }
+
+        & div {
+
+
+            & h1 {
+                color: #000;
+                font-size: var(--s-32);
+                font-weight: 500;
+            }
+
+            & p {
+                color: var(--c-main-brand);
+                font-weight: 400;
+            }
+        }
+    }
+
+    & ul {
+        list-style: none;
+
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        & a {
+
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+        }
+
+        & a:hover {
+            color: var(--c-main-brand);
+        }
+    }
+}

@@ -1,0 +1,22 @@
+:root {
+    /* Font Family */
+    --ff-main: "Poppins", sans-serif;
+
+    /* Colors */
+    --c-background: #fff;
+    --c-light-gray: #f1f3f7;
+    --c-light-gray-details: #f6f6f6;
+    --c-secondary-text: #a89f9f;
+    --c-dark-bar: #233032;
+    --c-main-brand: #2f86d6;
+    --c-small-details: #a8a4a4;
+    --c-blur-table: rgba(47, 134, 214, 1);
+
+    /* Sizes */
+    --s-8: 0.5rem;
+    --s-16: 1rem;
+    --s-24: 1.5rem;
+    --s-32: 2rem;
+    --s-80: 5rem;
+    --s-1024: 64rem;
+}
